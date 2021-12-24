@@ -36,4 +36,6 @@ services:
 
 #Docker Networks
 networks:
-  app-network: default
+  app-network:
+    driver: default
+
